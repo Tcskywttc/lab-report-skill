@@ -1,6 +1,6 @@
 interface:
   display_name: "实验报告规范化编写与排版助手"
-  short_description: "沿用实验报告样例格式，保护教师模板，以 Visio 总览图和真实证据辅助正文编写"
-  default_prompt: "请使用 $lab-report 按样例规范编写实验报告正文，在正文前部加入 Visio 实验总览流程图，结合真实材料说明完成情况，保持封面和教师意见区域不变。"
+  short_description: "沿用实验报告样例格式，保护教师模板，以跨平台总览图和真实证据辅助正文编写"
+  default_prompt: "请使用 $lab-report 按样例规范编写实验报告正文，在正文前部加入实验总览图（Windows 使用 Visio，macOS 使用 draw.io），以导出的 PDF 为正式图稿并将其清晰页面图用于 DOCX，VSDX 或 .drawio 留作工作源文件。结合真实材料说明完成情况，保持封面和教师意见区域不变。"
 policy:
   allow_implicit_invocation: true
