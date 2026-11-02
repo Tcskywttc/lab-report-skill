@@ -8,6 +8,7 @@
 *.pdf
 *.vsd
 *.vsdx
+!lab-report/assets/visio-exp3/exp3-flowchart-reference.vsdx
 *.zip
 *.log
 ~$*

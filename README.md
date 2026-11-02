@@ -93,6 +93,20 @@ $lab-report 请以我刚手工修改的“实验报告_最终版.docx”为准�
 
 也可以在技能选择器中选中 `lab-report` 后直接描述任务。具体的技能调用界面因客户端而异。
 
+## Visio 配色与构图样例
+
+仓库单独提供软件工程 exp3 的三页可编辑视觉样例，以及从实际 VSDX 提取的配色、字号、线宽和布局说明：
+
+- [下载可编辑 Visio 样例](lab-report/assets/visio-exp3/exp3-flowchart-reference.vsdx)
+- [查看完整分析与迁移规则](lab-report/references/visio-exp3-design.md)
+- [算法全景](lab-report/assets/visio-exp3/01-overview.svg)、[完整控制流](lab-report/assets/visio-exp3/02-control-flow.svg)、[进位机制](lab-report/assets/visio-exp3/03-carry-mechanism.svg)矢量预览
+
+![exp3 算法全景配色与布局](lab-report/assets/visio-exp3/01-overview.png)
+
+新图默认借鉴“浅色职责分区 + 深色标题与描边”的蓝、青绿、琥珀、紫配色，以及阶段总览、职责分栏、状态局部展开三种构图。按内容选用，不要求每次四色或三张图。规则同时要求检查最终入稿字号和回路连线。
+
+该文件是含原实验内容的 `.vsdx` 参考样例，不是空白 `.vstx` 模板。个人作者元数据已去除，原生形状与文字保留；部分连接采用手工折线，移动节点后须重接或核对。样例算法与数值不作为其他实验的结果证据。
+
 ## 环境与交付
 
 Skill 本身是 Markdown 与 YAML 文件；实际编辑、渲染、截图和绘图取决于运行它的智能体及可用工具。
@@ -118,6 +132,8 @@ lab-report-skill/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
+    ├── assets/
+    │   └── visio-exp3/                  # VSDX 与三页 SVG / PNG
     ├── examples/
     │   └── good-report-example.md
     └── references/
@@ -127,10 +143,11 @@ lab-report-skill/
         ├── formatting-standard.md
         ├── report-structure.md
         ├── screenshot-guide.md
+        ├── visio-exp3-design.md
         └── writing-guideline.md
 ```
 
-仓库未附带原始学生报告、学校教师模板、个人截图、真实实验数据或软件安装包。写作示例用于说明组织方法，不能作为新实验的证据。
+仓库仅附带上述脱敏 Visio 视觉样例，未附带完整学生报告、学校教师模板、个人截图、真实实验数据或软件安装包。写作和图形示例用于说明组织方法，不能作为新实验的证据。
 
 ## 反馈与改进
 
