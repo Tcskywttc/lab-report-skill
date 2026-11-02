@@ -276,6 +276,4 @@ lab-report-skill/
 
 ## 参考与许可
 
-开源仓库的介绍与使用说明组织方式参考了 [hanyu0510/SZU-CS-high-score-lab-report-skill](https://github.com/hanyu0510/SZU-CS-high-score-lab-report-skill)。本仓库发布的是维护者已有的 `lab-report` 技能，没有复制该仓库的报告图片或模板。
-
 本项目采用 [MIT License](LICENSE)。本项目是个人维护的实验报告工作流，不代表学校或课程官方要求。使用时请遵循本课程关于独立完成实验、材料使用和 AI 辅助披露的规定。
