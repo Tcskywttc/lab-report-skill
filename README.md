@@ -6,7 +6,7 @@
 
 它来自实际报告整理中积累的规则，重点是 **保留模板、解释原理、核对证据和检查版面**。本仓库提供技能指令与参考规范，不包含自动运行的报告生成程序，也不承诺成绩或一次生成即可提交。
 
-[完整工作流程](#完整工作流程) · [实验文件怎么放](#实验文件怎么放) · [多电脑更新](#多电脑更新) · [阅读技能](lab-report/SKILL.md) · [排版规范](lab-report/references/formatting-standard.md) · [MIT 许可证](LICENSE)
+[完整工作流程](#完整工作流程) · [实验文件怎么放](#实验文件怎么放) · [多电脑更新](#多电脑更新) · [阅读技能](lab-report/SKILL.md) · [排版规范](lab-report/references/formatting-standard.md) · [公式规范](lab-report/references/math-formatting.md) · [MIT 许可证](LICENSE)
 
 ## 能做什么
 
@@ -25,6 +25,7 @@
 - **仅排版不自动扩写。** 只修改指定段落、只插图或只打包时，保持任务范围。
 - **实验事实必须有依据。** 不虚构运行结果、截图、测量值、故障经历或测试通过情况；材料不足时留下明确待补项。
 - **图和代码要帮助解释实验。** 新写或补全整份报告必须有前部总览图；已有合格图可复用。总览图不替代正文推理，代码节选不替代原理分析，单张截图不证明整体成功率。
+- **数学公式保持可编辑。** 正文公式默认使用 Word 原生 OMML 和 Cambria Math，使用结构化上下标、分式与矩阵；长公式合理拆行，转换后核对数学含义并渲染检查。具体见[数学公式排版规范](lab-report/references/math-formatting.md)。
 - **检查最终 DOCX。** 检查保护区域、格式和图文关系，并渲染检查分页、裁切、图题分离和可读性；工具不足造成的未完成验证应单独说明。
 - **日常目录稳定，当前报告唯一。** 不自动堆积“最终版、修改版、v2”等并列稿件；教师提交结构仅在打包副本中实现。
 
@@ -261,6 +262,7 @@ lab-report-skill/
         ├── file-management.md
         ├── flowchart-guide.md
         ├── formatting-standard.md
+        ├── math-formatting.md
         ├── report-structure.md
         ├── screenshot-guide.md
         ├── visio-exp3-design.md
